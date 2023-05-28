@@ -18,11 +18,20 @@ useHead({
             <h2>Stack:</h2>
             <ul>
                 <li class="flex content-center items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.1em" height="1.1em" viewBox="0 0 24 24">
                         <path fill="currentColor"
                             d="M2 3h3.5L12 15l6.5-12H22L12 21L2 3m4.5 0h3L12 7.58L14.5 3h3L12 13.08L6.5 3Z"></path>
                     </svg>
-                    <span>ueJS</span>
+                    <span class="ml-2">VUEJS</span>
+                </li>
+                <li class="flex content-center items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 15 15">
+                        <g fill="none" stroke="currentColor" strokeLinejoin="round">
+                            <path d="m.5 12.5l6-10l6 10H.5Z"></path>
+                            <path d="m4.5 12.5l5-8.5l5 8.5h-10Z"></path>
+                        </g>
+                    </svg>
+                    <span class="ml-2">NUXT</span>
                 </li>
                 <li class="flex content-center items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
@@ -115,9 +124,10 @@ useHead({
                 </li>
             </ul>
 
+        </section>
+        <NavLinkPage previous="/projects" text-previous="Projects" next="/contact" text-next="Contact" />
     </section>
-    <NavLinkPage previous="/projects" text-previous="Projects" next="/contact" text-next="Contact" />
-</section></template>
+</template>
 
 
 <style scoped lang="sass">
