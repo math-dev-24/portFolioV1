@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300&display=swap')
+
+
+$green-light : #CBE4DE
+$green-dark : #2E4F4F
+
+
+@import "./_btn"
+
+body
+    background: #262C2C
+    color: $green-light 
+    font-family: 'Poppins', sans-serif
+    margin: 0px
+    padding: 0px
+    a
+        color: $green-light
+        text-decoration: none
+        transition: all 0.3s ease-in-out
+        &:hover
+            color : $green-dark
+
+.separator
+    width: 80%
+    height: 2px
+    margin: 10px auto
+    background: $green-light 
+    border-radius: 2px
+.panel_btn_nav
+    width: 80%
+    margin: auto
+    display: flex
+    justify-content: center
+    align-items: center
