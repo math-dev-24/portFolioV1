@@ -5,7 +5,7 @@ export const projects: ProjectInterface[] = [
         id: 1,
         title: "Simulate CoolingSystem",
         description: "Réalisation d'un site, permettant de simuler des circuit fluidique, afin de pouvoir avoir toutes les caractéristiques du circuit",
-        image: ["appFroidSimul.jpg", "appFroidTools.jpg"],
+        image: ["appFroidSimul.JPG", "appFroidTools.JPG"],
         techno: [
             {
                 name: "VUE3",
@@ -67,7 +67,7 @@ export const projects: ProjectInterface[] = [
         <p>Realization of the organization of the project with notion,
         passing from the dissecting of the project, to the userStory, to the models, Merise Method, ..</p>
         `,
-        image: ["dashBoardSportGestion.JPG", "dashBoardSportMaquette.JPG", "dashBoardSport.jpg", "dashBoardSportFocusPartner.JPG"],
+        image: ["dashBoardSportGestion.JPG", "dashBoardSportMaquette.JPG", "dashBoardSport.JPG", "dashBoardSportFocusPartner.JPG"],
         techno: [
             {
                 name: "VUE3",
@@ -124,7 +124,7 @@ export const projects: ProjectInterface[] = [
         id: 5,
         title: "Simon Game",
         description: "creation of the game simon game for school teacher students",
-        image: ["simonGame.jpg"],
+        image: ["simonGame.JPG"],
         techno: [
             {
                 name: "VUEJS",
@@ -150,7 +150,7 @@ export const projects: ProjectInterface[] = [
         description: `
         <p>I used pokemon api for this project. The goal is to train me on the front and the fetch request. And to practice REACT version 18.</p>
         `,
-        image: ["PokedexList.jpg", "PokedexDetail.jpg"],
+        image: ["PokedexList.JPG", "PokedexDetail.JPG"],
         techno: [
             {
                 name: "REACT18",
