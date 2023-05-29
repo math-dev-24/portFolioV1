@@ -17,12 +17,12 @@ const maxProject = ref<number>(projects.length)
 </script>
 
 <template>
-    <section>
+    <section class="text-sm md:text-lg w-11/12 md:w-5/6 m-auto">
         <h1 class="text-2xl font-bold">List of projects</h1>
         <div class="separator"></div>
         <div class="flex">
 
-            <div class="card">
+            <div class="card text-xs md:text-lg">
                 <div class="tools">
                     <div class="circle">
                         <span class="red box"></span>
@@ -47,18 +47,13 @@ const maxProject = ref<number>(projects.length)
             </div>
         </div>
         <div v-if="nbrMax < maxProject" @click="() => { nbrMax = nbrMax + 2 }"
-            class="block w-1/3 m-auto border my-6 text-center cursor-pointer hover:text-white">load More...</div>
+            class="block w-4/5 md:w-1/3 m-auto border my-3 md:my-6 text-center cursor-pointer hover:text-white">load More...</div>
 
         <NavLinkPage previous="/" text-previous="About" next="/certificates" text-next="Certificates" />
     </section>
 </template>
 
 <style scoped lang="css">
-section {
-    width: 80%;
-    margin: auto;
-}
-
 .card {
     margin: 0 auto;
     padding: 10px;

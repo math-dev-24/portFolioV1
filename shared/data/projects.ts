@@ -38,7 +38,7 @@ export const projects: ProjectInterface[] = [
     },
     {
         id: 2,
-        title: "CockChef",
+        title: "CookChef",
         description: "Projet d'école afin de réaliser la partie front d'un marmiton bis.",
         image: ["CookChefHome.JPG", "CookChefAdmin.JPG"],
         techno: [

@@ -11,7 +11,7 @@ useHead({
 </script>
 
 <template>
-    <section class="container m-auto my-8">
+    <section class="m-auto w-11/12 md:w-5/6  my-8 text-sm md:text-lg">
         <span class="text-2xl">Hi, I'm</span>
         <h1 class="text-5xl font-bold ml-14 my-14">BUSSE Mathieu</h1>
         <main class="my-8">
@@ -64,7 +64,7 @@ useHead({
         <span class="italic text-xs text-end block my-8">
             "Lifelong learning is the key to personal and professional success."
         </span>
-        <NavLinkPage previous="/" textPrevious="Actualy" next="/project/list" textNext="Projects" />
+        <NavLinkPage next="/project/list" textNext="Projects" />
     </section>
 </template>
 <style scoped lang="sass">

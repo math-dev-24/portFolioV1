@@ -11,4 +11,10 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  theme: {
+    colors: {
+      "lgreen": "#CBE4DE",
+      "dgreen": "#2E4F4F",
+    }
+  }
 }

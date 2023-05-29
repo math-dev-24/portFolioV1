@@ -11,7 +11,7 @@ useHead({
 </script>
 
 <template>
-    <section>
+    <section class="w-11/12 md:w-5/6 m-auto text-sm md:text-lg">
         <h1 class="text-center">Certificates</h1>
         <div class="separator"></div>
         <section>
@@ -131,11 +131,6 @@ useHead({
 
 
 <style scoped lang="sass">
-
-section 
-    width: 80%
-    margin: auto
-    display: block
 .color1
     color: red
 </style>

@@ -1,15 +1,15 @@
 <script setup lang="ts">
 defineProps<{
-    previous: string,
+    previous?: string,
     textPrevious?: string,
-    next: string,
+    next?: string,
     textNext?: string,
 }>()
 </script>
 
 
 <template>
-    <div class="separator mt-14"></div>
+    <div class="separator mt-6 md:mt-14"></div>
     <div class="panel_btn_nav mb-10">
         <NuxtLink class="btn_previous flex-1" :to="previous" v-if="textPrevious">
             <span>Previous page</span>

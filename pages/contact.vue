@@ -29,7 +29,7 @@ const onSubmit = (values: any) => {
 </script>
 
 <template>
-    <main>
+    <main class="w-11/12 md:w-5/6 m-auto">
         <h1 class="text-center">Contact</h1>
         <div class="separator"></div>
         <section>
@@ -48,7 +48,7 @@ const onSubmit = (values: any) => {
                     <VeeField type="textarea" name="message" id="message" rules="message"
                         :class="{ inputAlert: errors.message }" />
                 </div>
-                <button type="submit" class="flex content-center items-center" id="btnSend">
+                <button type="submit" class="flex content-center items-center text-xs md:text-lg" id="btnSend">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16">
                         <path fill="currentColor"
                             d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26l.001.002l4.995 3.178l3.178 4.995l.002.002l.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215l7.494-7.494l1.178-.471l-.47 1.178Z">
@@ -62,9 +62,7 @@ const onSubmit = (values: any) => {
     </main>
 </template>
 <style scoped lang="sass">
-section
-    width: 80%
-    margin: auto
+
 .inputAlert
     border-color: red
 form
