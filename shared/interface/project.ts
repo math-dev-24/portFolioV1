@@ -3,6 +3,7 @@ export default interface ProjectInterface {
     title: string;
     description: string;
     image? : string[];
+    github?: GitInterface[];
     techno: TechnoInterface[];
     link: string;
 }
@@ -10,4 +11,8 @@ export default interface ProjectInterface {
 interface TechnoInterface{
     name: string;
     type: string;
+}
+interface GitInterface{
+    name: string;
+    link: string;
 }

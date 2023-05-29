@@ -38,7 +38,7 @@ const maxProject = ref<number>(projects.length)
                     <span class="ccolor1">const</span> <span class="ccolor4">projectList</span> : <span
                         class="ccolor6">ProjectInterface[]</span> = <span class="ccolor5"> {</span>
                     <br>
-                    <template v-for="(project, index) in projects" :key="index">
+                    <template v-for="(project, index) in projects.sort((a, b) => a.id - b.id)" :key="index">
                         <CardProject v-if="index < nbrMax" :project="project" :index="index" />
                     </template>
                     <span class="ccolor5">}</span>
