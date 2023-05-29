@@ -1,7 +1,7 @@
 <template>
     <footer>
         <NuxtLink to="/" class="mx-4">About</NuxtLink>
-        <NuxtLink to="/Projects" class="mx-4">Projects</NuxtLink>
+        <NuxtLink to="/project/list" class="mx-4">Projects</NuxtLink>
         <NuxtLink to="/certificates" class="mx-4">Certificates</NuxtLink>
         <NuxtLink to="/contact" class="ml-4 mr-14">Contact</NuxtLink>
     </footer>

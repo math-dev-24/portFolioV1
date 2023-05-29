@@ -9,6 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-28088649.74a91bd",
     "@types/node": "^18",
     "@unocss/nuxt": "^0.52.4",
     "autoprefixer": "^10.4.14",
@@ -21,6 +22,7 @@
     "@vee-validate/zod": "^4.9.5",
     "sass": "^1.62.1",
     "vee-validate": "^4.9.5",
+    "vue3-carousel": "^0.3.1",
     "yup": "^1.2.0",
     "zod": "^3.21.4"
   }

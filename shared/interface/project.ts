@@ -1,6 +1,13 @@
 export default interface ProjectInterface {
+    id: number;
     title: string;
     description: string;
-    techno: string[];
+    image? : string[];
+    techno: TechnoInterface[];
     link: string;
+}
+
+interface TechnoInterface{
+    name: string;
+    type: string;
 }

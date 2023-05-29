@@ -125,7 +125,7 @@ useHead({
             </ul>
 
         </section>
-        <NavLinkPage previous="/projects" text-previous="Projects" next="/contact" text-next="Contact" />
+        <NavLinkPage previous="/project/list" text-previous="Projects" next="/contact" text-next="Contact" />
     </section>
 </template>
 

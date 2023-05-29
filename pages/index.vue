@@ -62,9 +62,9 @@ useHead({
             </a>
         </div>
         <span class="italic text-xs text-end block my-8">
-            "L'apprentissage tout au long de la vie est la clé pour le succès personnel et professionnel."
+            "Lifelong learning is the key to personal and professional success."
         </span>
-        <NavLinkPage previous="/" textPrevious="Actualy" next="/projects" textNext="Projects" />
+        <NavLinkPage previous="/" textPrevious="Actualy" next="/project/list" textNext="Projects" />
     </section>
 </template>
 <style scoped lang="sass">

@@ -6,7 +6,7 @@ useHead({
     meta: [
         {
             name: "description",
-            content: "Project of Mathieu"
+            content: "List of projects carried out in web dev"
         }
     ]
 })
@@ -18,7 +18,7 @@ const maxProject = ref<number>(projects.length)
 
 <template>
     <section>
-        <h1 class="text-2xl font-bold">projects</h1>
+        <h1 class="text-2xl font-bold">List of projects</h1>
         <div class="separator"></div>
         <div class="flex">
 
@@ -48,11 +48,14 @@ const maxProject = ref<number>(projects.length)
 </template>
 
 <style scoped lang="css">
-
+section{
+    width: 80%;
+    margin: auto;
+}
 .card {
     margin: 0 auto;
     padding: 10px;
-    width: 80%;
+    width: 95%;
     min-height: 350px;
     background-color: #1a1f1f;
     border-radius: 8px;
