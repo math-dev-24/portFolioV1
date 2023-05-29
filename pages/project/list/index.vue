@@ -35,23 +35,30 @@ const maxProject = ref<number>(projects.length)
                     </div>
                 </div>
                 <div class="card__content">
+                    <span class="ccolor1">const</span> <span class="ccolor4">projectList</span> : <span
+                        class="ccolor6">ProjectInterface[]</span> = <span class="ccolor5"> {</span>
+                    <br>
                     <template v-for="(project, index) in projects" :key="index">
                         <CardProject v-if="index < nbrMax" :project="project" :index="index" />
                     </template>
+                    <span class="ccolor5">}</span>
                 </div>
+                <span class="clic">_</span>
             </div>
         </div>
-        <div v-if="nbrMax < maxProject" @click="() => { nbrMax = nbrMax + 2 }" class="block w-1/3 m-auto border my-6 text-center cursor-pointer hover:text-white">load More...</div>
+        <div v-if="nbrMax < maxProject" @click="() => { nbrMax = nbrMax + 2 }"
+            class="block w-1/3 m-auto border my-6 text-center cursor-pointer hover:text-white">load More...</div>
 
         <NavLinkPage previous="/" text-previous="About" next="/certificates" text-next="Certificates" />
     </section>
 </template>
 
 <style scoped lang="css">
-section{
+section {
     width: 80%;
     margin: auto;
 }
+
 .card {
     margin: 0 auto;
     padding: 10px;
