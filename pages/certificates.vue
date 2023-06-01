@@ -4,7 +4,7 @@ useHead({
     meta: [
         {
             name: "description",
-            content: "Certificates of Mathieu"
+            content: "My certificates"
         }
     ]
 })

@@ -6,7 +6,7 @@ useHead({
     meta: [
         {
             name: "description",
-            content: "List of projects carried out in web dev"
+            content: "List of projects carried out in web dev. I use technologies such as NUXTJS, tailwindcss, Php "
         }
     ]
 })
@@ -36,12 +36,12 @@ const maxProject = ref<number>(projects.length)
                 </div>
                 <div class="card__content">
                     <span class="ccolor1">const</span> <span class="ccolor4">projectList</span> : <span
-                        class="ccolor6">ProjectInterface[]</span> = <span class="ccolor5"> {</span>
+                        class="ccolor6">ProjectInterface[]</span> = <span class="ccolor5"> [</span>
                     <br>
                     <template v-for="(project, index) in projects.sort((a, b) => a.id - b.id)" :key="index">
                         <CardProject v-if="index < nbrMax" :project="project" :index="index" />
                     </template>
-                    <span class="ccolor5">}</span>
+                    <span class="ccolor5">]</span>
                 </div>
                 <span class="clic">_</span>
             </div>

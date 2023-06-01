@@ -13,11 +13,11 @@ defineProps<{
     <div>
         <span class="ccolorTrans">---</span><span class="ccolor5"> {</span>
         <br>
-        <span class="ccolorTrans">------</span><span class="ccolor4">"title"</span> : <span class="ccolor2">"{{
-            project.title }}"</span>,
+        <span class="ccolorTrans">------</span><span class="ccolor4">"title"</span> : <h2 class="ccolor2 font-normal">"{{
+            project.title }}"</h2>,
         <br />
-        <span class="ccolorTrans">------</span><span class="ccolor4">"techno"</span> : <span class="ccolor3">[<span
-                v-for="stack in project.techno" :key="stack.name">"{{ stack.name }}", </span>]</span>,
+        <span class="ccolorTrans">------</span><span class="ccolor4">"techno"</span> : <span class="ccolor3">[<b
+                v-for="stack in project.techno" :key="stack.name" class="font-normal">"{{ stack.name }}", </b>]</span>,
         <br />
         <span class="ccolorTrans">------</span><span class="ccolor4">"link"</span> : "<a :href="project.link"
             target="_blank">{{ project.link }}</a>",

@@ -7,7 +7,7 @@ useHead({
     meta: [
         {
             name: "description",
-            content: "Contact me"
+            content: "contact me if you're interested in my profile."
         }
     ]
 })

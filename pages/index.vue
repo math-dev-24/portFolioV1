@@ -1,10 +1,10 @@
 <script lang="ts" setup>
 useHead({
-    title: "BUSSE Mathieu",
+    title: "About | BUSSE Mathieu",
     meta: [
         {
             name: "description",
-            content: "Mathew's portfolio website"
+            content: "Mathew's portfolio website, i'd like to introduce myself and my projects."
         }
     ]
 })
@@ -13,7 +13,7 @@ useHead({
 <template>
     <section class="m-auto w-11/12 md:w-5/6  my-8 text-sm md:text-lg">
         <span class="text-2xl">Hi, I'm</span>
-        <h1 class="text-5xl font-bold ml-14 my-14">BUSSE Mathieu</h1>
+        <h1 class="text-5xl font-bold ml-14 my-14">BUSSE <b class="font-normal">Mathieu</b></h1>
         <main class="my-8">
             <p>I am Mathieu, currently working in <b class="font-normal">research and development</b> in the world
                 refrigeration.</p>
@@ -26,7 +26,7 @@ useHead({
                 evening classes (Graduate Web and Mobile Web Development in 2 years).
             </p>
             <p>
-                In addition to all of this, I discovered the world of no-code which has great added value (Notion, Coda,
+                In addition to all of this, I discovered the world of <b class="font-normal">no-code</b> which has great added value (Notion, Coda,
                 Make, etc.).
             </p>
         </main>

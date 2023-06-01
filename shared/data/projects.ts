@@ -3,8 +3,8 @@ import ProjectInterface from "../interface/project"
 export const projects: ProjectInterface[] = [
     {
         id: 1,
-        title: "Simulate CoolingSystem",
-        description: "Réalisation d'un site, permettant de simuler des circuit fluidique, afin de pouvoir avoir toutes les caractéristiques du circuit",
+        title: "Cold App",
+        description: "Creation of a site to simulate fluidic circuits, in order to have all the circuit characteristics. And offering practical tools for refrigeration engineers.",
         image: ["appFroidSimul.JPG", "appFroidTools.JPG"],
         techno: [
             {
@@ -20,7 +20,7 @@ export const projects: ProjectInterface[] = [
                 type: "BACK"
             },
             {
-                name: "Flask-api",
+                name: "Flask",
                 type: "BACK"
             }
         ],
@@ -39,7 +39,7 @@ export const projects: ProjectInterface[] = [
     {
         id: 2,
         title: "CookChef",
-        description: "Projet d'école afin de réaliser la partie front d'un marmiton bis.",
+        description: "School project to create the front part of a \"marmiton bis\".",
         image: ["CookChefHome.JPG", "CookChefAdmin.JPG"],
         techno: [
             {
@@ -61,7 +61,7 @@ export const projects: ProjectInterface[] = [
     },
     {
         id: 3,
-        title: "Dashboard - Salle de sport",
+        title: "Dashboard - Fitness room",
         description: `
         <p>Realization of a complete project as part of my training.</p>
         <p>Realization of the organization of the project with notion,
@@ -100,8 +100,8 @@ export const projects: ProjectInterface[] = [
     },
     {
         id: 4,
-        title: "Boutique FRONT",
-        description : "",
+        title: "Shop",
+        description : "School project front. Creation of a shop with a shopping cart system as well as the administrator part to manage products on API.",
         techno: [
             {
                 name: "VUE3",
