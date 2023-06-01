@@ -13,7 +13,7 @@ defineProps<{
     <div>
         <span class="ccolorTrans">---</span><span class="ccolor5"> {</span>
         <br>
-        <span class="ccolorTrans">------</span><span class="ccolor4">"title"</span> : <h2 class="ccolor2 font-normal">"{{
+        <span class="ccolorTrans">------</span><span class="ccolor4">"title"</span> : <h2 class="ccolor2 font-normal text-sm md:text-lg inline">"{{
             project.title }}"</h2>,
         <br />
         <span class="ccolorTrans">------</span><span class="ccolor4">"techno"</span> : <span class="ccolor3">[<b
